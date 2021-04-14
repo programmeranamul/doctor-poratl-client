@@ -1,0 +1,21 @@
+.appointment-section{   
+    background:url('../../../images/chiarBg.png');
+    height: 400px;
+    position: relative;
+    background-size: cover;
+}
+.appointment-section::after{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 41, 73, .8);
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.appointment-section img{
+    height: 525px;
+    transform: translateY(-125px);
+
+}

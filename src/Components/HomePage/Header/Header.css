@@ -1,0 +1,17 @@
+.header{   
+    background-image: url('../../../images/chiarBg.png');
+    background-size: cover;
+    position: relative;
+    height: 700px;
+}
+.header::after{
+    position: absolute;
+    content: '';
+    background-color: #3A4256;
+    width: 33%;
+    right: 0;
+    display: block;
+    height: 620px;
+    top:0;
+    z-index: -1;
+}

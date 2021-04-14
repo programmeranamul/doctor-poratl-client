@@ -1,0 +1,14 @@
+.conaict-section{
+    background-image: url('../../../images/appointmentBg.png');
+    position: relative;
+    z-index: 1;
+}
+.conaict-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 11, 27, .9);
+    z-index: -1;
+}

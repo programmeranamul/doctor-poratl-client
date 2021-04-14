@@ -1,0 +1,6 @@
+.testimonial-container{
+    background: url('../../../images/quote.png');
+    background-position: top right;
+    background-size: 150px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+.blog {
+  margin-top: 30px;
+}
+
+.blog .card .card-header {
+  background: transparent;
+}
+.blog .card:hover {
+  background-image: linear-gradient(75deg, #19d3b1, #10d0e9);
+  color: white !important;
+  transition: all .1s ease-in-out;
+}
+.blog .card:hover .card-body {
+  background-image: url("../../../images/quote.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.blog .card:hover img {
+  display: none;
+}
